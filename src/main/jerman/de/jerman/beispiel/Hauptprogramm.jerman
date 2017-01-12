@@ -1,0 +1,42 @@
+Packet de.jerman.beispiel;
+
+öffentliche Klasse Hauptprogramm {
+     private Zeichenkette name;
+
+     öffentliches Hauptprogramm(finale Zeichenkette zz) {
+            dies.name = zz;
+     }
+
+     öffentlich statische Leere haupt(Zeichenkette... z) {
+            finales Hauptprogramm hauptprogramm = neues Hauptprogramm("das ist ein Test");
+           System.aus.druckzl(hauptprogramm.gibName());
+           System.aus.druckzl("noch eine weitere Ausgabe...");
+
+           finaler Hund hund = neuer Hund();
+           finale Zeichenkette s = "skdfj";
+
+         //  System.aus.druckzl(hund.belle());
+
+           für(Ganzzahl i = 0; i < 3; i++) {
+            System.aus.druckzl("test");
+           }
+
+            versuch {
+                wirf neue RuntimeException("exception");
+            }
+            fang(Exception e) {
+                System.aus.druckzl("gefangen");
+            }
+
+           System.aus.druckzl("noch ein test");
+     }
+
+     öffentliche Zeichenkette gibName() {
+            gibzurück dies.name;
+     }
+
+    private Leere test() {
+        //tue nichts
+    }
+
+}

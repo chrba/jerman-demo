@@ -1,0 +1,8 @@
+Packet de.jerman.beispiel;
+
+öffentliche Klasse Hund {
+
+    öffentliche Zeichenkette belle() {
+        gibzurück "wauwau wuf";
+    }
+}
